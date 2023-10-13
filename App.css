@@ -1,0 +1,112 @@
+body  {
+  margin: 0;
+  padding: 0;
+  font-family: Arial, sans-serif;
+}
+
+.navbar {
+  background-color: #d3e1dd;
+  overflow: hidden;
+  font-weight: bold;
+}
+
+.navbar a {
+  float: left;
+  display: block;
+  margin-top: 8px;
+  color: rgb(2, 2, 2);
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+.navbar input[type="text"] {
+  padding: 10px;
+  width: 75%;
+  margin: 10px;
+  border: none;
+  border-radius: 5px;
+}
+
+.navbar .post-button,
+.navbar .login-button {
+  float: right;
+}
+
+.navbar .post-button a,
+.navbar .login-button a{
+  border: none;
+  color: rgb(0, 0, 0);
+  margin-top: 10px;
+  padding: 10px 20px;
+  border-radius: 5px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+}
+.container h2 {
+  color: blue; /* Blue text color */
+}
+
+/* Styling for the "Sign Up" link at top right */
+.container h2 a {
+  float: right;
+  margin-right: 10px;
+  color: blue; /* Blue text color */
+}
+
+/* Additional styling for form labels and inputs */
+label {
+  font-weight: bold;
+}
+
+input[type="text"],
+input[type="email"],
+input[type="password"] {
+  padding: 10px;
+  width: 100%;
+  margin: 20px 0;
+  border-radius: 5px;
+}
+
+button[type="submit"] {
+  padding: 12px 395px;
+  background-color: rgb(83, 176, 216);
+  color: white;
+  text-align: center;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+.container text{
+  padding: 10px;
+  width: 100%;
+  margin: 20px 0;
+  border-radius: 5px;
+}
+button[type="create"]{
+  padding: 12px 390px;
+  background-color: rgb(83, 176, 216);
+  color: white;
+  text-align: center;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+/* Additional styling for the "Log In" form */
+.container:nth-child(2) {
+  max-width: 800px;
+  margin: 0 auto;
+}
+.container:nth-child(3){
+  max-width: 800px;
+  margin: 0 auto;
+}
+.container p{
+  color: blue;
+  font-weight: bolder;
+  font-size: x-large;
+  margin: 20px;
+  text-align: center;
+}
